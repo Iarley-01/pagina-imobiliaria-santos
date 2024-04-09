@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+p {
+  margin: 10px auto;
+  max-width: 980px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.secao {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.secao-destaque {
+  background-color: #afddfb;
+}
+
+.secao-destaque .logo {
+  max-width: 150px;
+}
+
+.secao-destaque p {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.secao-destaque p a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #1d1d1d;
+  border-bottom: 2px solid #1d1d1d;
+}
+
+.secao-banner {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.secao-sobre h1 {
+  color: #1d1d1d;
+  margin-bottom: 5px;
+}
+
+.secao-sobre img {
+  max-width: 450px;
+}
+
+.secao-servicos {
+  background-color: #1d80c1;
+}
+
+.secao-servicos p {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.secao-servicos ul {
+  margin: 40px auto;
+  max-width: 135px;
+}
+
+.secao-servicos ul li {
+  color: #ffffff;
+  line-height: 42px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.secao-corretores h3 {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.secao-contato {
+  background-color: #1d80c1;
+}
+
+.secao-contato p {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.secao-contato ul {
+  margin: 40px auto;
+  list-style: none;
+  max-width: 210px;
+}
+
+.secao-contato ul li {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.secao-contato ul li a {
+  background-color: #ffffff;
+  color: #1d80c1;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.subtitulo {
+  color: #1c81c0;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.subtitulo-branco {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.texto-azul {
+  color: #1d80c1;
+  font-weight: bold;
+}
+
+.texto-amarelo {
+  color: #fff81b;
+}
+
+.banner {
+  max-width: 450px;
+}
+
+@media screen and (max-width: 480px){
+  img {
+    width: 100%;
+  }
+}
